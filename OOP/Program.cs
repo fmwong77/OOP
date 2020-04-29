@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Amazon;
 
 namespace OOP
 {
@@ -19,6 +19,9 @@ namespace OOP
             var installer = new Installer(logger);
             dbMigrator.Migrate();
             installer.Install();
+
+            var customer = new Customer();
+            customer.Promote();
         }
     }
 }
