@@ -8,7 +8,7 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            var text = new Text();
+            /*var text = new Text();
             text.Width = 100;
             text.Copy();
             text.Hyperlink("www.google.com");
@@ -21,7 +21,10 @@ namespace OOP
             installer.Install();
 
             var customer = new Customer();
-            customer.Promote();
+            customer.Promote();*/
+
+            var car = new Car("123");
+
         }
     }
 }
