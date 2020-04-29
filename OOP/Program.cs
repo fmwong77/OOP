@@ -1,13 +1,17 @@
-﻿,using System;
-wertyu8o]= bml'qsdfhjl']23467804`  
+﻿using System;
+
 
 namespace OOP
 {
+   
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var text = new Text();
+            text.Width = 100;
+            text.Copy();
+            text.Hyperlink("www.google.com");
         }
     }
 }
